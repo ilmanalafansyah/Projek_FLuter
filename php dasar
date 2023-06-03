@@ -1,0 +1,34 @@
+<?php
+// Contoh penggunaan variabel
+$nama = "John Doe";
+$umur = 25;
+
+echo "Halo, nama saya " . $nama . " dan umur saya " . $umur . " tahun.";
+
+// Contoh penggunaan percabangan if-else
+$nilai = 80;
+
+if ($nilai >= 60) {
+    echo "Selamat, Anda lulus!";
+} else {
+    echo "Maaf, Anda tidak lulus.";
+}
+
+// Contoh penggunaan perulangan for
+for ($i = 1; $i <= 5; $i++) {
+    echo "Nomor: " . $i . "<br>";
+}
+
+// Contoh penggunaan array
+$buah = array("Apel", "Jeruk", "Mangga");
+
+echo "Saya suka makan " . $buah[0] . ", " . $buah[1] . ", dan " . $buah[2] . ".";
+
+// Contoh penggunaan fungsi
+function tambah($a, $b) {
+    return $a + $b;
+}
+
+$hasil = tambah(3, 4);
+echo "Hasil penjumlahan: " . $hasil;
+?>
